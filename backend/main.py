@@ -51,8 +51,8 @@ STORES = [
     {
         "id": "anika_shop",
         "name": "Anika Shop",
-        "latitude": -34.6069,
-        "longitude": -58.4748,
+        "latitude": -34.6045129,
+        "longitude": -58.4578861,
         "address": "Av. S. Martín 2159, C1416 CABA",
     },
 ]
