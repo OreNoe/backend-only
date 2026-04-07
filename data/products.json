@@ -1,0 +1,137 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Ibuprofeno 400mg x 20 comp",
+    "category": "Farmacia",
+    "brand": "Ibupirac",
+    "presentation": "20 comprimidos",
+    "store_prices": { "maga_plus": 3800, "ramona": 4100 },
+    "competition_prices": { "farmacity": 4200, "coto": 3750 }
+  },
+  {
+    "id": "prod_002",
+    "name": "Paracetamol 500mg x 16 comp",
+    "category": "Farmacia",
+    "brand": "Tafirol",
+    "presentation": "16 comprimidos",
+    "store_prices": { "maga_plus": 3200, "ramona": 3150 },
+    "competition_prices": { "farmacity": 3500, "coto": 3100 }
+  },
+  {
+    "id": "prod_003",
+    "name": "Omeprazol 20mg x 14 cáps",
+    "category": "Farmacia",
+    "brand": "Omeprazol Genérico",
+    "presentation": "14 cápsulas",
+    "store_prices": { "maga_plus": 5600, "ramona": 5300 },
+    "competition_prices": { "farmacity": 5800, "coto": 5200 }
+  },
+  {
+    "id": "prod_004",
+    "name": "Loratadina 10mg x 10 comp",
+    "category": "Farmacia",
+    "brand": "Alergin",
+    "presentation": "10 comprimidos",
+    "store_prices": { "maga_plus": 4500, "ramona": 4800 },
+    "competition_prices": { "farmacity": 4900, "coto": 4400 }
+  },
+  {
+    "id": "prod_005",
+    "name": "Alcohol etílico 70° x 500ml",
+    "category": "Farmacia",
+    "brand": "Purocol",
+    "presentation": "500ml",
+    "store_prices": { "maga_plus": 3400, "ramona": 3600 },
+    "competition_prices": { "farmacity": 3800, "coto": 3300 }
+  },
+  {
+    "id": "prod_006",
+    "name": "Shampoo x 750ml",
+    "category": "Perfumería",
+    "brand": "Sedal Restauración",
+    "presentation": "750ml",
+    "store_prices": { "maga_plus": 6700, "ramona": 7100 },
+    "competition_prices": { "farmacity": 7200, "coto": 6500 }
+  },
+  {
+    "id": "prod_007",
+    "name": "Desodorante aerosol x 150ml",
+    "category": "Perfumería",
+    "brand": "Rexona Antibacterial",
+    "presentation": "150ml",
+    "store_prices": { "maga_plus": 7900, "ramona": 7500 },
+    "competition_prices": { "farmacity": 8100, "coto": 7300 }
+  },
+  {
+    "id": "prod_008",
+    "name": "Pañales G x 36u",
+    "category": "Perfumería",
+    "brand": "Pampers Premium Care",
+    "presentation": "36 unidades",
+    "store_prices": { "maga_plus": 35000, "ramona": 37000 },
+    "competition_prices": { "farmacity": 38000, "coto": 34500 }
+  },
+  {
+    "id": "prod_009",
+    "name": "Jabón líquido corporal x 500ml",
+    "category": "Perfumería",
+    "brand": "Dove Original",
+    "presentation": "500ml",
+    "store_prices": { "maga_plus": 5100, "ramona": 5400 },
+    "competition_prices": { "farmacity": 5600, "coto": 5000 }
+  },
+  {
+    "id": "prod_010",
+    "name": "Crema de enjuague x 750ml",
+    "category": "Perfumería",
+    "brand": "Pantene Restauración",
+    "presentation": "750ml",
+    "store_prices": { "maga_plus": 7500, "ramona": 7200 },
+    "competition_prices": { "farmacity": 7800, "coto": 7000 }
+  },
+  {
+    "id": "prod_011",
+    "name": "Lavandina x 2L",
+    "category": "Limpieza",
+    "brand": "Ayudín Original",
+    "presentation": "2 litros",
+    "store_prices": { "maga_plus": 2900, "ramona": 3100 },
+    "competition_prices": { "farmacity": 3200, "coto": 2800 }
+  },
+  {
+    "id": "prod_012",
+    "name": "Detergente x 750ml",
+    "category": "Limpieza",
+    "brand": "Magistral",
+    "presentation": "750ml",
+    "store_prices": { "maga_plus": 3250, "ramona": 3400 },
+    "competition_prices": { "farmacity": 3600, "coto": 3100 }
+  },
+  {
+    "id": "prod_013",
+    "name": "Limpiador líquido x 900ml",
+    "category": "Limpieza",
+    "brand": "Procenex Multiuso",
+    "presentation": "900ml",
+    "store_prices": { "maga_plus": 3800, "ramona": 4000 },
+    "competition_prices": { "farmacity": 4100, "coto": 3700 }
+  },
+  {
+    "id": "prod_014",
+    "name": "Suavizante x 3L",
+    "category": "Limpieza",
+    "brand": "Vivere",
+    "presentation": "3 litros",
+    "store_prices": { "maga_plus": 8200, "ramona": 7800 },
+    "competition_prices": { "farmacity": 8500, "coto": 7600 }
+  },
+  {
+    "id": "prod_015",
+    "name": "Bolsas de residuos 45x60 x 30u",
+    "category": "Limpieza",
+    "brand": "Residuo",
+    "presentation": "30 unidades",
+    "store_prices": { "maga_plus": 2600, "ramona": 2800 },
+    "competition_prices": { "farmacity": 2900, "coto": 2500 }
+  }
+]
