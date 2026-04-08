@@ -133,5 +133,77 @@
     "presentation": "30 unidades",
     "store_prices": { "maga_plus": 2600, "ramona": 2800, "anika_shop": 2700 },
     "competition_prices": { "farmacity": 2900, "coto": 2500 }
+  },
+  {
+    "id": "prod_016",
+    "name": "Antitranspirante Invisible Rexona 150 ml",
+    "category": "Perfumería",
+    "brand": "Rexona",
+    "presentation": "150 ml",
+    "store_prices": { "maga_plus": 4799, "ramona": 4999, "anika_shop": 4899 },
+    "competition_prices": { "farmacity": null, "coto": 4588.99 }
+  },
+  {
+    "id": "prod_017",
+    "name": "Plusbelle Litro Shampoo Hidratación Nutritiva 1 lt",
+    "category": "Perfumería",
+    "brand": "Plusbelle",
+    "presentation": "1 lt",
+    "store_prices": { "maga_plus": 5499, "ramona": 5699, "anika_shop": 5599 },
+    "competition_prices": { "farmacity": null, "coto": 5299.99 }
+  },
+  {
+    "id": "prod_018",
+    "name": "Protectores Diarios CAREFREE Todos Los Días",
+    "category": "Perfumería",
+    "brand": "Carefree",
+    "presentation": "pack",
+    "store_prices": { "maga_plus": 8799, "ramona": 8999, "anika_shop": 8899 },
+    "competition_prices": { "farmacity": null, "coto": 8428.00 }
+  },
+  {
+    "id": "prod_019",
+    "name": "Acondicionador ELVIVE Rt5 Keratin 750 ml",
+    "category": "Perfumería",
+    "brand": "Elvive",
+    "presentation": "750 ml",
+    "store_prices": { "maga_plus": 9999, "ramona": 10299, "anika_shop": 10099 },
+    "competition_prices": { "farmacity": null, "coto": 9594.00 }
+  },
+  {
+    "id": "prod_020",
+    "name": "Procenex Limpiador Líquido Para Pisos Lavanda",
+    "category": "Limpieza",
+    "brand": "Procenex",
+    "presentation": "lavanda",
+    "store_prices": { "maga_plus": 2399, "ramona": 2499, "anika_shop": 2449 },
+    "competition_prices": { "farmacity": null, "coto": 2245.99 }
+  },
+  {
+    "id": "prod_021",
+    "name": "Lavandina Líquida AYUDÍN Botella 1 L",
+    "category": "Limpieza",
+    "brand": "Ayudín",
+    "presentation": "1 L",
+    "store_prices": { "maga_plus": 1999, "ramona": 2099, "anika_shop": 2049 },
+    "competition_prices": { "farmacity": null, "coto": null }
+  },
+  {
+    "id": "prod_022",
+    "name": "Jabón Líquido Bio Enzimas Skip Doy 3 L",
+    "category": "Limpieza",
+    "brand": "Skip",
+    "presentation": "3 L",
+    "store_prices": { "maga_plus": 9499, "ramona": 9699, "anika_shop": 9599 },
+    "competition_prices": { "farmacity": null, "coto": null }
+  },
+  {
+    "id": "prod_023",
+    "name": "Tabletas Insecticidas FUYI Contra Mosquitos Repuesto",
+    "category": "Limpieza",
+    "brand": "Fuyi",
+    "presentation": "repuesto",
+    "store_prices": { "maga_plus": 5299, "ramona": 5499, "anika_shop": 5399 },
+    "competition_prices": { "farmacity": null, "coto": 5025.99 }
   }
 ]
