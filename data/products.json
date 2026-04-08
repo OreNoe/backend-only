@@ -186,7 +186,7 @@
     "brand": "Ayudín",
     "presentation": "1 L",
     "store_prices": { "maga_plus": 1999, "ramona": 2099, "anika_shop": 2049 },
-    "competition_prices": { "farmacity": null, "coto": null }
+    "competition_prices": { "farmacity": null, "coto": 1453.99 }
   },
   {
     "id": "prod_022",
@@ -195,7 +195,7 @@
     "brand": "Skip",
     "presentation": "3 L",
     "store_prices": { "maga_plus": 9499, "ramona": 9699, "anika_shop": 9599 },
-    "competition_prices": { "farmacity": null, "coto": null }
+    "competition_prices": { "farmacity": null, "coto": 14452.99 }
   },
   {
     "id": "prod_023",
