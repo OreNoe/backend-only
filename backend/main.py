@@ -88,11 +88,11 @@ def _latest_report(store_id: str, product_id: str) -> Optional[dict]:
     return reports_db.get(f"{store_id}:{product_id}")
 
 
-def _competition_avg(product: dict) -> Optional[float]:
-    """Promedio de precios de la competencia para un producto."""
+def _competition_ref(product: dict) -> Optional[float]:
+    """Mayor precio de la competencia para un producto."""
     prices = product.get("competition_prices", {})
     values = [value for value in prices.values() if value is not None]
-    return sum(values) / len(values) if values else None
+    return max(values) if values else None
 
 
 @app.get("/api/products", tags=["Productos"])
@@ -112,7 +112,7 @@ async def get_store_pins(product_id: Optional[str] = None):
         product = next((p for p in products_db if p["id"] == product_id), None)
         if not product:
             raise HTTPException(404, f"Producto {product_id} no encontrado")
-        comp_avg = _competition_avg(product)
+        comp_avg = _competition_ref(product)
         result = []
         for store in STORES:
             store_price = product.get("store_prices", {}).get(store["id"])
@@ -186,7 +186,7 @@ async def create_report(report: ReportIn):
             report.reported_price,
         )
 
-    comp_avg = _competition_avg(product)
+    comp_avg = _competition_ref(product)
     store_price = product.get("store_prices", {}).get(report.store_id)
     if store_price is not None and comp_avg is not None and comp_avg > 0:
         pin_color = "green" if store_price <= comp_avg else "red"
